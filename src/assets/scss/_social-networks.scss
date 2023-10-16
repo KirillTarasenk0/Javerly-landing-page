@@ -1,0 +1,43 @@
+.main__fourth-section {
+    display: flex;
+    justify-content: center;
+    .main__fourth-container {
+        max-width: 1110px;
+        max-height: 745px;
+        display: flex;
+        flex-direction: column;
+        .main__social-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 60px;
+            .main__social-tag {
+                padding-bottom: 15px;
+                a {
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $button-bg-color;
+                    text-decoration: none;
+                }
+            }
+            h2 {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 41px;
+                text-align: center;
+                color: $button-bg-color;
+            }
+        }
+        .main__social-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            .social__gallery-image {
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
