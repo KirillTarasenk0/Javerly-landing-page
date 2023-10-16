@@ -1,0 +1,229 @@
+.main__first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .main__first-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1110px;
+        padding-top: 133px;
+        padding-bottom: 147px;
+        .main__first-articles {
+            p {
+                color: $button-bg-color;
+                font-weight: 400;
+                font-size: 21px;
+                line-height: 29px;
+                padding-bottom: 15px;
+            }
+            h2 {
+                color: $button-bg-color;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 40px;
+                padding-bottom: 60px;
+            }
+        }
+        .main__first-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .main__first-button {
+                border: 1px solid #D6D6D6;
+                width: 165px;
+                height: 55px;
+                position: relative;
+                &:not(:first-child) {
+                    margin-left: 24px;
+                }
+                &:nth-child(1)::before {
+                    content: 'свадьба';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 37px 17px 36px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(1):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(1):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+                &:nth-child(2)::before {
+                    content: 'мужу';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 55px 17px 54px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(2):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(2):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+                &:nth-child(3)::before {
+                    content: 'жене';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 56px 17px 56px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(3):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(3):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+                &:nth-child(4)::before {
+                    content: 'партнёру';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 33px 17px 33px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(4):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(4):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+                &:nth-child(5)::before {
+                    content: 'коллекции';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 23px 17px 22px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(5):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(5):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+                &:nth-child(6)::before {
+                    content: 'редкость';
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    color: $button-bg-color;
+                    line-height: 21px;
+                    letter-spacing: 1.5px;
+                    padding: 17px 32px 17px 30px;
+                    bottom: 6px;
+                    right: 6px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #D6D6D6;
+                    max-width: 165px;
+                    max-height: 61px;
+                }
+                &:nth-child(6):hover::before {
+                    background-color: $button-bg-color;
+                    color: $text-color;
+                    cursor: pointer;
+                    bottom: -2px;
+                    right: -1px;
+                    transition: 1.5s;
+                }
+                &:nth-child(6):active::before {
+                    background-color: #FFFFFF;
+                    color: $button-bg-color;
+                    transition: 0.1ms;   
+                }
+            }
+        }
+        .main__first-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding-top: 55px;
+        }
+    }
+}
