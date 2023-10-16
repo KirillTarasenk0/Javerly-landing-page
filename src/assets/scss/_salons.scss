@@ -23,19 +23,19 @@
             }
             .main__salons-text {
                 font-weight: 400;
-                font-size: var(--button-text-size);
+                font-size: $button-text-size;
                 line-height: 25px;
                 text-align: center;
                 max-width: 730px;
                 padding-bottom: 60px;
             }
             .main__salons-button {
-                background-color: var(--text-color);
+                background-color: $text-color;
                 padding: 15px 35px 15px 35px;
                 a {
-                    color: var(--button-bg-color);
+                    color: $button-bg-color;
         	        font-weight: 500;
-                    font-size: var(--button-text-size);
+                    font-size: $button-text-size;
                     line-height: 21px;
                     letter-spacing: 2px;
                     text-decoration: none;
