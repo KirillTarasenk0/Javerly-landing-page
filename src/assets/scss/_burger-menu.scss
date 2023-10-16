@@ -1,0 +1,87 @@
+.burger__menu-container {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 20;
+    background-color: var(--button-bg-color);
+    animation-name: burgerMenuTransition;
+    animation-duration: 1s;
+    padding-top: 30px;
+    @keyframes burgerMenuTransition {
+        0% {
+            width: 0vw;
+        }
+        100% {
+            width: 100vw;
+        }
+    }
+    .burger__close-button {
+        button {
+            background-color: transparent;
+            border: 0;
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+    .burger__navigation-container {
+        padding-left: 70px;
+        nav {
+            ul {
+                li {
+                    padding-top: 20px;
+                    a {
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 21px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .burger__search-container {
+            display: flex;
+            padding-top: 20px;
+            .burger__search-second {
+                padding-top: 2px;
+                padding-left: 10px;
+                padding-bottom: 20px;
+                a {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 21px;
+                    text-decoration: none;
+                }
+            }
+        }
+        .burger__registration-container {
+            padding-bottom: 20px;
+            a {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 21px;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+        }
+        .burger__registration-buttons {
+            display: flex;
+            .burger__entrance-button {
+                a {
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+            .burger__favourites-button {
+                padding-left: 20px;
+                a {
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
