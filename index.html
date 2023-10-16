@@ -11,6 +11,206 @@
     <link rel="stylesheet" href="./dist/css/index.min.css">
 </head>
 <body>
-    
+    <div id="burgerMenuContainer" class="burger__menu-container">
+        <div class="burger__close-button">
+            <button class="close__button" id="closeBurgerBtn"><img class="close__button-image" src="./images/menu-close-icon.svg" alt="Иконка закрывающего меню-бургер"></button>
+        </div>
+        <div class="burger__navigation-container">
+            <nav class="burger__navigation">
+                <ul class="burger__navigation-items">
+                    <li class="burger__navigation-item">
+                        <a class="burger__navigation-link" href="#">Контрагентам</a>
+                    </li>
+                    <li class="burger__navigation-item">
+                        <a class="burger__navigation-link" href="#">Дизайнерам</a>
+                    </li>
+                    <li class="burger__navigation-item">
+                        <a class="burger__navigation-link" href="#">Вакансии</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger__search-container">
+                <div class="burger__search-first">
+                    <img class="burger__search-image" src="./images/search.svg" alt="Лупа поиска"/>
+                </div>
+                <div class="burger__search-second">
+                    <a class="burger__search-link" href="#">Поиск</a>
+                </div>
+            </div>
+            <div class="burger__registration-container">
+                <a class="burger__registration-link" href="#">Вход/Регистрация</a>
+            </div>
+            <div class="burger__registration-buttons">
+                <div class="burger__entrance-button">
+                    <a class="burger__entrance-link" href="#">
+                        <img class="burger__entrance-image" src="./images/account.svg" alt="Кнопка входа для пользователя"/>
+                    </a>
+                </div>
+                <div class="burger__favourites-button">
+                    <a class="burger__favourites-link" href="#">
+                        <img class="burger__favourites-image" src="./images/heart.svg" alt="Кнопка для просмотра избранного"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="heneral__container" id="generalContainer">
+        <header class="header">
+            <div class="header__main-container">
+                <div class="header__container">
+                    <div class="header__navigation-container">
+                        <nav class="header__navigation">
+                            <ul class="header__navigation-items">
+                                <li class="header__navigation-item">
+                                    <a class="header__navigation-link" href="#">Контрагентам</a>
+                                </li>
+                                <li class="header__navigation-item">
+                                    <a class="header__navigation-link" href="#">Дизайнерам</a>
+                                </li>
+                                <li class="header__navigation-item">
+                                    <a class="header__navigation-link" href="#">Вакансии</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__logo-container">
+                        <div class="header__logo">
+                            <img class="header__logo-image" src="./images/logo.svg" alt="Логотип компании"/>
+                        </div>
+                    </div>
+                    <div class="header__user-container">
+                        <div class="header__search-container">
+                            <div class="header__search-first">
+                                <img class="header__search-image" src="./images/search.svg" alt="Лупа поиска"/>
+                            </div>
+                            <div class="header__search-second">
+                                <a class="header__search-link" href="#">Поиск</a>
+                            </div>
+                        </div>
+                        <div class="header__registration-container">
+                            <a class="header__registration-link" href="#">Вход/Регистрация</a>
+                        </div>
+                        <div class="header__entrance-button">
+                            <a class="header__entrance-link" href="#">
+                                <img class="header__entrance-image" src="./images/account.svg" alt="Кнопка входа для пользователя"/>
+                            </a>
+                        </div>
+                        <div class="header__favourites-button">
+                            <a class="header__favourites-link" href="#">
+                                <img class="header__favourites-image" src="./images/heart.svg" alt="Кнопка для просмотра избранного"/>
+                            </a>
+                        </div>
+                    </div>    
+                    <div class="header__burger-button">
+                        <button class="open__button" id="openBurgerBtn"><img class="open__button-image" src="./images/menu-icon.svg" alt="Иконка, открывающая меню-бургер"/></button>
+                    </div>
+                </div>
+                <div class="header__body">
+                    <div class="header__body-container">
+                        <h1 class="header__body-title">Долго, дорого, богато!</h1>
+                        <div class="header__body-button">
+                            <a class="header__body-link" href="#"><span class="link__span"></span></a>
+                        </div>
+                    </div>
+                    <div class="header__body-logos">
+                        <div class="header__body-logo-container">
+                            <div class="header__body-logo">
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__body-logo">
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__body-logo">
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__body-logo"> 
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__body-logo">
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__body-logo">
+                                <img class="body__logo" src="./images/designer-logo.svg" alt="Логотип компании"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__first-section">
+                <div class="main__first-container">
+                    <div class="main__first-articles">
+                        <p class="main__first-label">К мероприятиям</p>
+                        <h2 class="main__first-title">Настоящая красота здесь!</h2>
+                    </div>
+                    <div class="main__first-buttons">
+                        <div class="main__first-button"></div>
+                        <div class="main__first-button"></div>
+                        <div class="main__first-button"></div>
+                        <div class="main__first-button"></div>
+                        <div class="main__first-button"></div>
+                        <div class="main__first-button"></div>
+                    </div>
+                    <div class="main__first-gallery">
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/rings.svg" alt=""/></a>
+                        </div>
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/earrings.svg" alt=""/></a>
+                        </div>
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/suspensions.svg" alt=""/></a>
+                        </div>
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/cufflinks.svg" alt=""/></a>
+                        </div>
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/bracelets.svg" alt=""/></a>
+                        </div>
+                        <div class="main__gallery-card">
+                            <a href="#"><img src="./images/watch.svg" alt=""/></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__second-section">
+                <div class="main__second-container">
+                    <div class="main__salons-container">
+                        <p class="main__salons-label">Не знаете, что выбрать?</p>
+                        <h2 class="main__salons-title">Посетите наши салоны в Москве</h2>
+                        <p class="main__salons-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.</p>
+                        <div class="main__salons-button">
+                            <a class="main__salons-link" href="#">наши салоны</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__third-section">
+                <div class="main__third-container">
+                    <div class="main__blog-header">
+                        <p class="main__blog-label">Полезные статьи</p>
+                        <h2 class="main__blog-title">Лучшие советы по подбору дорогих подарков</h2>
+                    </div>
+                    <div class="main__blog-gallery">
+                        <div class="blog__gallery-image">
+                            <a class="blog__image" href="#"><img src="./images/advice-first-image.svg" alt="Как выбрать часы для своей будущей жены"/></a>
+                        </div>
+                        <div class="blog__gallery-image">
+                            <a class="blog__image" href="#"><img src="./images/advice-second-image.svg" alt="Запонки для мужа: 7 ключевых правил покупки аксессуара"/></a>
+                        </div>
+                        <div class="blog__gallery-image">
+                            <a class="blog__image" href="#"><img src="./images/advice-third-image.svg" alt="Как выбрать обручальные кольца молодоженам"/></a>
+                        </div>
+                    </div>
+                    <div class="main__blog-button">
+                        <div class="blog__button-container">
+                            <a class="main__blog-link" href="#">читать наш блог</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
