@@ -1,0 +1,189 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 103px;
+    .footer__container {
+        max-width: 1110px;
+        height: 295px;
+        display: flex;
+        flex-direction: column;
+        .footer__head-part {
+            display: flex;
+            margin-bottom: 60px;
+            .footer__links {
+                margin-right: 30px;
+                h2 {
+                    color: $button-bg-color;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    width: 255px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #333333;
+                }
+                ul {
+                    li {
+                        &:first-child {
+                            padding-top: 30px;
+                        }
+                        &:not(:first-child) {
+                            padding-top: 15px;
+                        }
+                        a {
+                            color: $button-bg-color;
+                            font-weight: 400;
+                            text-decoration: none;
+                            font-size: $header-text-size;
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+            .footer__payment {
+                margin-right: 30px;
+                h2 {
+                    color: $button-bg-color;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    width: 255px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #333333;
+                }
+                p {
+                    padding-top: 30px;
+                    max-width: 255px;
+                    color: $button-bg-color;
+                    font-weight: 400;
+                    text-decoration: none;
+                    font-size: $header-text-size;
+                    line-height: 21px;
+                    padding-bottom: 21px;
+                }
+                .footer__payment-images {
+                    display: flex;
+                    .footer__payment-card:last-child {
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .footer__contacts {
+                margin-right: 30px;
+                h2 {
+                    color: $button-bg-color;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    width: 255px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #333333;
+                }
+                ul {
+                    li {
+                        margin-left: 40px;
+                        position: relative;
+                        &:first-child {
+                            margin-top: 30px;
+                        }
+                        &:not(:first-child) {
+                            margin-top: 15px;
+                        }
+                        &:not(:nth-child(3))::before {
+                            content: url(../img/phone__image.svg);
+                            position: absolute;
+                            top: 0;
+                            left: -40px;
+                        }
+                        &:last-child:before {
+                            content: url(../img/mail__image.svg);
+                            position: absolute;
+                            top: 0;
+                            left: -40px;
+                        }
+                        a {
+                            color: $button-bg-color;
+                            max-width: 255px;
+                            color: $button-bg-color;
+                            font-weight: 400;
+                            text-decoration: none;
+                            font-size: $header-text-size;
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+            .footer__socials {
+                
+                h2 {
+                    color: $button-bg-color;
+                    font-weight: 500;
+                    font-size: $button-text-size;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    width: 255px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #333333;
+                }
+                p {
+                    padding-top: 30px;
+                    max-width: 255px;
+                    color: $button-bg-color;
+                    font-weight: 400;
+                    text-decoration: none;
+                    font-size: $header-text-size;
+                    line-height: 21px;
+                    padding-bottom: 21px;
+                }
+                .footer__socials-logos {
+                    display: flex;
+                    .footer__social-logo {
+                        &:not(:first-child) {
+                            padding-left: 20px; 
+                        }
+                        &:last-child {
+                            padding-top: 3px;
+                            padding-left: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer__bottom-part {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #333333;
+            padding-top: 20px;
+            .footer__bottom-card {
+                p {
+                    font-weight: 400;
+                    font-size: $header-text-size;
+                    line-height: 21px;
+                    color: $button-bg-color;
+                }
+                a {
+                    font-weight: 400;
+                    font-size: $header-text-size;
+                    line-height: 21px;
+                    color: $button-bg-color;
+                    text-decoration: none;
+                }
+                .footer__bottom-label {
+                    font-weight: 600;
+                    font-size: $header-text-size;
+                    line-height: 21px;
+                    color: $button-bg-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
