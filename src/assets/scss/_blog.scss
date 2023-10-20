@@ -7,6 +7,15 @@
         max-width: 1110px;
         padding-top: 120px;
         padding-bottom: 120px;
+        @media screen and (max-width: 1120px) {
+            max-width: 910px;
+        }
+        @media screen and (max-width: 855px) {
+            max-width: 710px;
+        }
+        @media screen and (max-width: 505px) {
+            max-width: 300px;
+        }
         .main__blog-header {
             display: flex;
             flex-direction: column;
@@ -25,6 +34,9 @@
                 font-size: 30px;
                 line-height: 41px;
                 padding-bottom: 60px;
+                @media screen and (max-width: 855px) {
+                    text-align: center;
+                }
             }
         }
         .main__blog-gallery {
@@ -32,6 +44,10 @@
             flex-direction: row;
             gap: 30px;
             padding-bottom: 60px;
+            @media screen and (max-width: 1120px) {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
         }
         .main__blog-button {
             display: flex;
