@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     z-index: 20;
-    background-color: var(--button-bg-color);
+    background-color: $button-bg-color;
     animation-name: burgerMenuTransition;
     animation-duration: 1s;
     padding-top: 30px;
