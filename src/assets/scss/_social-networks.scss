@@ -7,6 +7,19 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 150px;
+        @media screen and (max-width: 1120px) {
+            max-width: 910px;
+            margin-bottom: 400px;
+            margin-left: 20px;
+        }
+        @media screen and (max-width: 850px) {
+            max-width: 710px;
+            margin-bottom: 750px;
+        }
+        @media screen and (max-width: 650px) {
+            max-width: 410px;
+            margin-bottom: 1550px;
+        }
         .main__social-container {
             display: flex;
             flex-direction: column;
@@ -34,9 +47,18 @@
         .main__social-gallery {
             display: flex;
             flex-wrap: wrap;
+            @media screen and (max-width: 1120px) {
+                justify-content: center;
+                margin-left: 23px;
+            }
             .social__gallery-image {
                 img {
                     cursor: pointer;
+                    &:nth-child(1) {
+                        @media screen and (max-width: 650px) {
+                            width: 380px;
+                        }
+                    }
                 }
             }
         }
