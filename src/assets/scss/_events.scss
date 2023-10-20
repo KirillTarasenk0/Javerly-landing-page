@@ -9,6 +9,15 @@
         max-width: 1110px;
         padding-top: 133px;
         padding-bottom: 147px;
+        @media screen and (max-width: 1120px) {
+            max-width: 910px;
+        }
+        @media screen and (max-width: 855px) {
+            max-width: 710px;
+        }
+        @media screen and (max-width: 505px) {
+            max-width: 300px;
+        }
         .main__first-articles {
             p {
                 color: $button-bg-color;
@@ -34,6 +43,9 @@
                 width: 165px;
                 height: 55px;
                 position: relative;
+                @media screen and (max-width: 1120px) {
+                    margin-top: 25px;
+                }
                 &:not(:first-child) {
                     margin-left: 24px;
                 }
@@ -224,6 +236,9 @@
             flex-wrap: wrap;
             gap: 30px;
             padding-top: 55px;
+            @media screen and (max-width: 1120px) {
+                justify-content: center;
+            }
         }
     }
 }

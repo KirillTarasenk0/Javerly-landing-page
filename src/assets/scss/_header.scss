@@ -186,6 +186,9 @@
             border-top: 1px solid #FFFFFF;
             padding-top: 30px;
             padding-bottom: 30px;
+            @media screen and (max-width: 505px) {
+                border-top: 0px;
+            }
             .header__body-logo-container {
                 max-width: 1110px;
                 display: flex;
