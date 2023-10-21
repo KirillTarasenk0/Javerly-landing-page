@@ -3,7 +3,9 @@
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 103px;
+    @media screen and (max-width: 830px) {
+        padding-top: 0;
+    }
     .footer__container {
         max-width: 1110px;
         height: 295px;
@@ -12,6 +14,8 @@
         .footer__head-part {
             display: flex;
             margin-bottom: 60px;
+            flex-wrap: wrap;
+            justify-content: center;
             .footer__links {
                 margin-right: 30px;
                 h2 {
@@ -45,6 +49,9 @@
             }
             .footer__payment {
                 margin-right: 30px;
+                @media screen and (max-width: 570px) {
+                    margin-top: 30px;
+                }
                 h2 {
                     color: $button-bg-color;
                     font-weight: 500;
@@ -75,6 +82,9 @@
             }
             .footer__contacts {
                 margin-right: 30px;
+                @media screen and (max-width: 855px) {
+                    margin-top: 30px;
+                }
                 h2 {
                     color: $button-bg-color;
                     font-weight: 500;
@@ -121,7 +131,10 @@
                 }
             }
             .footer__socials {
-                
+                margin-right: 30px;
+                @media screen and (max-width: 1120px) {
+                    margin-top: 30px;
+                }
                 h2 {
                     color: $button-bg-color;
                     font-weight: 500;
@@ -162,7 +175,28 @@
             justify-content: space-between;
             border-top: 1px solid #333333;
             padding-top: 20px;
+            padding-bottom: 103px;
+            flex-wrap: wrap;
+            @media screen and (max-width: 600px) {
+                justify-content: center;
+            }
             .footer__bottom-card {
+                &:not(:last-child) { 
+                    @media screen and (max-width: 610px) {
+                        padding-right: 10px;
+                    }
+                }
+                &:nth-child(4) {
+                    @media screen and (max-width: 588px) {
+                        padding-top: 20px;
+                    }
+                }
+                &:nth-child(3) {
+                    @media screen and (max-width: 457px) {
+                        padding-top: 20px;
+                        
+                    }
+                }
                 p {
                     font-weight: 400;
                     font-size: $header-text-size;
