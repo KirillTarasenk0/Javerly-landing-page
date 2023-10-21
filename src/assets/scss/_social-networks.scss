@@ -18,7 +18,7 @@
         }
         @media screen and (max-width: 650px) {
             max-width: 410px;
-            margin-bottom: 1550px;
+            margin-bottom: 1150px;
         }
         .main__social-container {
             display: flex;
@@ -49,14 +49,13 @@
             flex-wrap: wrap;
             @media screen and (max-width: 1120px) {
                 justify-content: center;
-                margin-left: 23px;
             }
             .social__gallery-image {
                 img {
                     cursor: pointer;
                     &:nth-child(1) {
                         @media screen and (max-width: 650px) {
-                            width: 380px;
+                            width: 300px;
                         }
                     }
                 }

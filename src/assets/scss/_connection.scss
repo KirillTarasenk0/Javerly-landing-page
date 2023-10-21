@@ -7,6 +7,9 @@
         max-width: 1110px;
         padding-top: 100px;
         padding-bottom: 125px;
+        @media screen and (max-width: 830px) {
+            padding-top: 60px;
+        }
         .main__connection-text {
             display: flex;
             flex-direction: column;
@@ -23,13 +26,28 @@
                 font-size: 30px;
                 line-height: 41px;
                 text-align: center;
+                @media screen and (max-width: 830px) {
+                    padding-bottom: 40px;
+                }
             }
         }
         .main__send-container {
             display: flex;
+            @media screen and (max-width: 830px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            } 
             .send__labeles-container {
                 padding-right: 80px;
+                @media screen and (max-width: 830px) {
+                    padding-right: 0;  
+                }
                 ul {
+                    @media screen and (max-width: 830px) {
+                        padding-bottom: 30px;
+                    }
                     li {
                         font-weight: 400;
                         font-size: $button-text-size;
@@ -50,6 +68,9 @@
             .send__form-container {
                 border: 1px solid #FFFFFF;
                 width: 448px;
+                @media screen and (max-width: 500px) {
+                    width: 368px;
+                }
                 form {
                     display: flex;
                     max-width: 418px;
@@ -57,13 +78,22 @@
                     background-color: $text-color;
                     margin: 14px 15px 14px 15px;
                     padding: 20px 22px 20px 22px;
+                    @media screen and (max-width: 500px) {
+                        padding-left: 10px;
+                    }
                     .send__email-container {
                         padding-right: 15px;
+                        @media screen and (max-width: 500px) {
+                            padding-right: 10px;
+                        }
                         input {
                             width: 200px;
                             height: 45px;
                             border: 1px solid #D6D6D6;
                             padding-left: 20px;
+                            @media screen and (max-width: 500px) {
+                                width: 150px;
+                            }
                             &::placeholder {
                                 font-weight: 500;
                                 font-size: 14px;
